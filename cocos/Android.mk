@@ -290,7 +290,7 @@ LOCAL_MODULE_FILENAME := libcc
 
 LOCAL_STATIC_LIBRARIES := ccui
 LOCAL_STATIC_LIBRARIES += ccds
-LOCAL_STATIC_LIBRARIES += ccb
+LOCAL_STATIC_LIBRARIES := ccets
 LOCAL_STATIC_LIBRARIES += cc3d
 LOCAL_STATIC_LIBRARIES += ccnet
 LOCAL_STATIC_LIBRARIES += audio
@@ -308,7 +308,6 @@ $(call import-module,webp/prebuilt/android)
 $(call import-module,chipmunk/prebuilt/android)
 $(call import-module,3d)
 $(call import-module,audio/android)
-$(call import-module,editor-support/cocosbuilder)
 $(call import-module,network)
 $(call import-module,ui)
 $(call import-module,extensions)
