@@ -28,9 +28,6 @@
     <Filter Include="manual\cocosdenshion">
       <UniqueIdentifier>{e88a3956-3c72-495d-bef5-75aa1b1e28a7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="manual\cocosbuilder">
-      <UniqueIdentifier>{21be021b-accb-4bf7-9ab5-327661740a5b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="manual\extension">
       <UniqueIdentifier>{c8af8add-e72c-43a7-b89c-c6b9417f3cff}</UniqueIdentifier>
     </Filter>
@@ -42,9 +39,6 @@
     </Filter>
     <Filter Include="script\cocos2d">
       <UniqueIdentifier>{8778206d-1979-4f87-8354-0207bda9d8d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="script\cocosbuilder">
-      <UniqueIdentifier>{e2b9c502-c4a1-4d73-8111-0301708ad6cb}</UniqueIdentifier>
     </Filter>
     <Filter Include="script\cocosdenshion">
       <UniqueIdentifier>{8a10f092-0016-49ee-a656-91ef2e897598}</UniqueIdentifier>
@@ -138,9 +132,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_3d_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
-    <ClCompile Include="..\auto\lua_cocos2dx_cocosbuilder_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_cocosdenshion_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
@@ -158,12 +149,6 @@
     </ClCompile>
     <ClCompile Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.cpp">
       <Filter>manual\cocosdenshion</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\cocosbuilder\CCBProxy.cpp">
-      <Filter>manual\cocosbuilder</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.cpp">
-      <Filter>manual\cocosbuilder</Filter>
     </ClCompile>
     <ClCompile Include="..\manual\extension\lua_cocos2dx_extension_manual.cpp">
       <Filter>manual\extension</Filter>
@@ -233,9 +218,6 @@
     </ClCompile>
     <ClCompile Include="..\manual\audioengine\lua_cocos2dx_audioengine_manual.cpp">
       <Filter>manual\audioengine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\auto\lua_cocos2dx_csloader_auto.cpp">
-      <Filter>auto</Filter>
     </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_experimental_webview_auto.cpp">
       <Filter>auto</Filter>
@@ -326,9 +308,6 @@
     <ClInclude Include="..\auto\lua_cocos2dx_3d_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
-    <ClInclude Include="..\auto\lua_cocos2dx_cocosbuilder_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_cocosdenshion_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
@@ -346,12 +325,6 @@
     </ClInclude>
     <ClInclude Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.h">
       <Filter>manual\cocosdenshion</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\cocosbuilder\CCBProxy.h">
-      <Filter>manual\cocosbuilder</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.h">
-      <Filter>manual\cocosbuilder</Filter>
     </ClInclude>
     <ClInclude Include="..\manual\extension\lua_cocos2dx_extension_manual.h">
       <Filter>manual\extension</Filter>
@@ -425,9 +398,6 @@
     <ClInclude Include="..\manual\audioengine\lua_cocos2dx_audioengine_manual.h">
       <Filter>manual\audioengine</Filter>
     </ClInclude>
-    <ClInclude Include="..\auto\lua_cocos2dx_csloader_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_experimental_webview_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
@@ -445,12 +415,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\script\CCBReaderLoad.lua">
-      <Filter>script\cocosbuilder</Filter>
-    </None>
-    <None Include="..\script\DeprecatedCocosBuilderClass.lua">
-      <Filter>script\cocosbuilder</Filter>
-    </None>
     <None Include="..\script\DeprecatedCocosDenshionClass.lua">
       <Filter>script\cocosdenshion</Filter>
     </None>
