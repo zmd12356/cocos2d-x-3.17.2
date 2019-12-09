@@ -34,9 +34,6 @@
     <Filter Include="manual\cocostudio">
       <UniqueIdentifier>{7118046c-b71e-4510-b1ea-71916d909276}</UniqueIdentifier>
     </Filter>
-    <Filter Include="manual\spine">
-      <UniqueIdentifier>{4422fdad-3112-45d1-8eb4-87d8c08fac74}</UniqueIdentifier>
-    </Filter>
     <Filter Include="manual\extension">
       <UniqueIdentifier>{c8af8add-e72c-43a7-b89c-c6b9417f3cff}</UniqueIdentifier>
     </Filter>
@@ -203,12 +200,6 @@
     </ClCompile>
     <ClCompile Include="..\manual\network\lua_xml_http_request.cpp">
       <Filter>manual\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\spine\lua_cocos2dx_spine_manual.cpp">
-      <Filter>manual\spine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\spine\LuaSkeletonAnimation.cpp">
-      <Filter>manual\spine</Filter>
     </ClCompile>
     <ClCompile Include="..\manual\ui\lua_cocos2dx_experimental_video_manual.cpp">
       <Filter>manual\ui</Filter>
@@ -430,12 +421,6 @@
     </ClInclude>
     <ClInclude Include="..\manual\network\lua_xml_http_request.h">
       <Filter>manual\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\spine\lua_cocos2dx_spine_manual.hpp">
-      <Filter>manual\spine</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\spine\LuaSkeletonAnimation.h">
-      <Filter>manual\spine</Filter>
     </ClInclude>
     <ClInclude Include="..\manual\ui\lua_cocos2dx_experimental_video_manual.hpp">
       <Filter>manual\ui</Filter>
