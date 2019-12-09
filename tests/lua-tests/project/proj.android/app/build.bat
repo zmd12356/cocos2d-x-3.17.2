@@ -1,0 +1,1 @@
+ndk-build -j4 NDK_DEBUG=0
