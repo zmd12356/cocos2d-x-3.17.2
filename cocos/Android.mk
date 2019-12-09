@@ -224,7 +224,6 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH) \
                     $(LOCAL_PATH)/../external/tinyxml2 \
                     $(LOCAL_PATH)/../external/unzip \
                     $(LOCAL_PATH)/../external/chipmunk/include/chipmunk \
-                    $(LOCAL_PATH)/../external/bullet/include/bullet \
                     $(LOCAL_PATH)/../external/xxhash \
                     $(LOCAL_PATH)/../external/nslog \
                     $(LOCAL_PATH)/../external/poly2tri \
@@ -238,7 +237,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH) \
                     $(LOCAL_PATH)/../external/tinyxml2 \
                     $(LOCAL_PATH)/../external/unzip \
                     $(LOCAL_PATH)/../external/chipmunk/include/chipmunk \
-                    $(LOCAL_PATH)/../external/bullet/include/bullet \
                     $(LOCAL_PATH)/../external/edtaa3func \
                     $(LOCAL_PATH)/../external/xxhash \
                     $(LOCAL_PATH)/../external/ConvertUTF \
@@ -261,7 +259,6 @@ LOCAL_STATIC_LIBRARIES += ext_webp
 LOCAL_STATIC_LIBRARIES += ext_chipmunk 
 LOCAL_STATIC_LIBRARIES += ext_zlib
 LOCAL_STATIC_LIBRARIES += ext_ssl
-LOCAL_STATIC_LIBRARIES += ext_bullet
 
 LOCAL_WHOLE_STATIC_LIBRARIES := ccandroid
 LOCAL_WHOLE_STATIC_LIBRARIES += cpufeatures
@@ -288,9 +285,9 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := cc_static
 LOCAL_MODULE_FILENAME := libcc
 
-LOCAL_STATIC_LIBRARIES := ccui
+LOCAL_STATIC_LIBRARIES += ccui
 LOCAL_STATIC_LIBRARIES += ccds
-LOCAL_STATIC_LIBRARIES := ccets
+LOCAL_STATIC_LIBRARIES += ccets
 LOCAL_STATIC_LIBRARIES += cc3d
 LOCAL_STATIC_LIBRARIES += ccnet
 LOCAL_STATIC_LIBRARIES += audio
