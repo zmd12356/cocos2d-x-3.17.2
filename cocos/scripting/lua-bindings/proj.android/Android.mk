@@ -104,14 +104,6 @@ LOCAL_SRC_FILES += ../manual/cocosbuilder/lua_cocos2dx_cocosbuilder_manual.cpp \
                    ../manual/cocosbuilder/CCBProxy.cpp \
                    ../auto/lua_cocos2dx_cocosbuilder_auto.cpp
 
-#cocostudio
-LOCAL_SRC_FILES += ../manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp \
-                   ../manual/cocostudio/CustomGUIReader.cpp \
-                   ../manual/cocostudio/lua_cocos2dx_csloader_manual.cpp \
-                   ../auto/lua_cocos2dx_csloader_auto.cpp \
-                   ../auto/lua_cocos2dx_studio_auto.cpp \
-                   ../manual/cocostudio/lua-cocos-studio-conversions.cpp
-
 #ui
 LOCAL_SRC_FILES += ../manual/ui/lua_cocos2dx_experimental_webview_manual.cpp \
                    ../manual/ui/lua_cocos2dx_experimental_video_manual.cpp \
@@ -134,8 +126,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../../../3d \
                     $(LOCAL_PATH)/../../../network \
                     $(LOCAL_PATH)/../../../editor-support/cocosbuilder \
-                    $(LOCAL_PATH)/../../../editor-support/cocostudio \
-                    $(LOCAL_PATH)/../../../editor-support/cocostudio/ActionTimeline \
                     $(LOCAL_PATH)/../../../ui \
                     $(LOCAL_PATH)/../../../physics3d \
                     $(LOCAL_PATH)/../../../../extensions \
@@ -147,7 +137,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../manual/audioengine \
                     $(LOCAL_PATH)/../manual/network \
                     $(LOCAL_PATH)/../manual/extension \
-                    $(LOCAL_PATH)/../manual/cocostudio \
                     $(LOCAL_PATH)/../manual/cocosbuilder \
                     $(LOCAL_PATH)/../manual/ui \
                     $(LOCAL_PATH)/../../../../external/xxtea \
@@ -164,7 +153,6 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                            $(LOCAL_PATH)/../manual/audioengine \
                            $(LOCAL_PATH)/../manual/network \
                            $(LOCAL_PATH)/../manual/cocosbuilder \
-                           $(LOCAL_PATH)/../manual/cocostudio \
                            $(LOCAL_PATH)/../manual/extension \
                            $(LOCAL_PATH)/../manual/ui \
                            $(LOCAL_PATH)/../../../..

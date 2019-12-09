@@ -31,9 +31,6 @@
     <Filter Include="manual\cocosbuilder">
       <UniqueIdentifier>{21be021b-accb-4bf7-9ab5-327661740a5b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="manual\cocostudio">
-      <UniqueIdentifier>{7118046c-b71e-4510-b1ea-71916d909276}</UniqueIdentifier>
-    </Filter>
     <Filter Include="manual\extension">
       <UniqueIdentifier>{c8af8add-e72c-43a7-b89c-c6b9417f3cff}</UniqueIdentifier>
     </Filter>
@@ -51,9 +48,6 @@
     </Filter>
     <Filter Include="script\cocosdenshion">
       <UniqueIdentifier>{8a10f092-0016-49ee-a656-91ef2e897598}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="script\cocostudio">
-      <UniqueIdentifier>{c62c70e6-0736-4c0d-90bd-366498ec5bfa}</UniqueIdentifier>
     </Filter>
     <Filter Include="script\extension">
       <UniqueIdentifier>{735e43a2-a3d3-41be-82c8-8ef9981e0c0f}</UniqueIdentifier>
@@ -159,9 +153,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_extension_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
-    <ClCompile Include="..\auto\lua_cocos2dx_studio_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_ui_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
@@ -176,9 +167,6 @@
     </ClCompile>
     <ClCompile Include="..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.cpp">
       <Filter>manual\cocosbuilder</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.cpp">
-      <Filter>manual\cocostudio</Filter>
     </ClCompile>
     <ClCompile Include="..\manual\extension\lua_cocos2dx_extension_manual.cpp">
       <Filter>manual\extension</Filter>
@@ -243,9 +231,6 @@
     <ClCompile Include="..\..\..\..\external\lua\luasocket\wsocket.c">
       <Filter>luasocket</Filter>
     </ClCompile>
-    <ClCompile Include="..\manual\cocostudio\CustomGUIReader.cpp">
-      <Filter>manual\cocostudio</Filter>
-    </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_audioengine_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
@@ -254,12 +239,6 @@
     </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_csloader_auto.cpp">
       <Filter>auto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\cocostudio\lua_cocos2dx_csloader_manual.cpp">
-      <Filter>manual\cocostudio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\cocostudio\lua-cocos-studio-conversions.cpp">
-      <Filter>manual\cocostudio</Filter>
     </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_experimental_webview_auto.cpp">
       <Filter>auto</Filter>
@@ -368,9 +347,6 @@
     <ClInclude Include="..\auto\lua_cocos2dx_extension_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
-    <ClInclude Include="..\auto\lua_cocos2dx_studio_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_ui_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
@@ -385,9 +361,6 @@
     </ClInclude>
     <ClInclude Include="..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.h">
       <Filter>manual\cocosbuilder</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.hpp">
-      <Filter>manual\cocostudio</Filter>
     </ClInclude>
     <ClInclude Include="..\manual\extension\lua_cocos2dx_extension_manual.h">
       <Filter>manual\extension</Filter>
@@ -455,9 +428,6 @@
     <ClInclude Include="..\..\..\..\external\lua\luasocket\wsocket.h">
       <Filter>luasocket</Filter>
     </ClInclude>
-    <ClInclude Include="..\manual\cocostudio\CustomGUIReader.h">
-      <Filter>manual\cocostudio</Filter>
-    </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_audioengine_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
@@ -466,12 +436,6 @@
     </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_csloader_auto.hpp">
       <Filter>auto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\cocostudio\lua_cocos2dx_csloader_manual.hpp">
-      <Filter>manual\cocostudio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\cocostudio\lua-cocos-studio-conversions.h">
-      <Filter>manual\cocostudio</Filter>
     </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_experimental_webview_auto.hpp">
       <Filter>auto</Filter>
@@ -510,15 +474,6 @@
     </None>
     <None Include="..\script\DeprecatedCocosDenshionFunc.lua">
       <Filter>script\cocosdenshion</Filter>
-    </None>
-    <None Include="..\script\DeprecatedCocoStudioClass.lua">
-      <Filter>script\cocostudio</Filter>
-    </None>
-    <None Include="..\script\DeprecatedCocoStudioFunc.lua">
-      <Filter>script\cocostudio</Filter>
-    </None>
-    <None Include="..\script\StudioConstants.lua">
-      <Filter>script\cocostudio</Filter>
     </None>
     <None Include="..\script\DeprecatedExtensionClass.lua">
       <Filter>script\extension</Filter>

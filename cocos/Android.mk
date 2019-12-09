@@ -296,7 +296,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := cc_static
 LOCAL_MODULE_FILENAME := libcc
 
-LOCAL_STATIC_LIBRARIES := ccs
+LOCAL_STATIC_LIBRARIES := ccui
+LOCAL_STATIC_LIBRARIES += ccds
 LOCAL_STATIC_LIBRARIES += ccb
 LOCAL_STATIC_LIBRARIES += cc3d
 LOCAL_STATIC_LIBRARIES += ccnet
@@ -316,7 +317,6 @@ $(call import-module,chipmunk/prebuilt/android)
 $(call import-module,3d)
 $(call import-module,audio/android)
 $(call import-module,editor-support/cocosbuilder)
-$(call import-module,editor-support/cocostudio)
 $(call import-module,network)
 $(call import-module,ui)
 $(call import-module,extensions)
