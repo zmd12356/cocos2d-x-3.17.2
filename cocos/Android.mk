@@ -200,14 +200,6 @@ physics/CCPhysicsContact.cpp \
 physics/CCPhysicsJoint.cpp \
 physics/CCPhysicsShape.cpp \
 physics/CCPhysicsWorld.cpp \
-physics3d/CCPhysics3D.cpp \
-physics3d/CCPhysics3DWorld.cpp \
-physics3d/CCPhysics3DComponent.cpp \
-physics3d/CCPhysics3DDebugDrawer.cpp \
-physics3d/CCPhysics3DObject.cpp \
-physics3d/CCPhysics3DShape.cpp \
-physics3d/CCPhysicsSprite3D.cpp \
-physics3d/CCPhysics3DConstraint.cpp \
 ../external/ConvertUTF/ConvertUTFWrapper.cpp \
 ../external/ConvertUTF/ConvertUTF.c \
 ../external/md5/md5.c \
@@ -321,9 +313,7 @@ $(call import-module,network)
 $(call import-module,ui)
 $(call import-module,extensions)
 $(call import-module,Box2D/prebuilt/android)
-$(call import-module,bullet/prebuilt/android)
 # $(call import-module,curl/prebuilt/android)
 $(call import-module,websockets/prebuilt/android)
 $(call import-module,openssl/prebuilt/android)
-$(call import-module,flatbuffers)
 $(call import-module,uv/prebuilt/android)
