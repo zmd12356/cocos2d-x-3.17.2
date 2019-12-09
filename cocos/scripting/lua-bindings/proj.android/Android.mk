@@ -112,11 +112,6 @@ LOCAL_SRC_FILES += ../manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp \
                    ../auto/lua_cocos2dx_studio_auto.cpp \
                    ../manual/cocostudio/lua-cocos-studio-conversions.cpp
 
-#spine
-LOCAL_SRC_FILES += ../manual/spine/lua_cocos2dx_spine_manual.cpp \
-                   ../manual/spine/LuaSkeletonAnimation.cpp \
-                   ../auto/lua_cocos2dx_spine_auto.cpp
-
 #ui
 LOCAL_SRC_FILES += ../manual/ui/lua_cocos2dx_experimental_webview_manual.cpp \
                    ../manual/ui/lua_cocos2dx_experimental_video_manual.cpp \
@@ -146,7 +141,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../../../editor-support/cocosbuilder \
                     $(LOCAL_PATH)/../../../editor-support/cocostudio \
                     $(LOCAL_PATH)/../../../editor-support/cocostudio/ActionTimeline \
-                    $(LOCAL_PATH)/../../../editor-support/spine \
                     $(LOCAL_PATH)/../../../ui \
                     $(LOCAL_PATH)/../../../physics3d \
                     $(LOCAL_PATH)/../../../navmesh \
@@ -161,7 +155,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../manual/extension \
                     $(LOCAL_PATH)/../manual/cocostudio \
                     $(LOCAL_PATH)/../manual/cocosbuilder \
-                    $(LOCAL_PATH)/../manual/spine \
                     $(LOCAL_PATH)/../manual/ui \
                     $(LOCAL_PATH)/../manual/navmesh \
                     $(LOCAL_PATH)/../../../../external/xxtea \
@@ -179,7 +172,6 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                            $(LOCAL_PATH)/../manual/network \
                            $(LOCAL_PATH)/../manual/cocosbuilder \
                            $(LOCAL_PATH)/../manual/cocostudio \
-                           $(LOCAL_PATH)/../manual/spine \
                            $(LOCAL_PATH)/../manual/extension \
                            $(LOCAL_PATH)/../manual/ui \
                            $(LOCAL_PATH)/../manual/navmesh \
