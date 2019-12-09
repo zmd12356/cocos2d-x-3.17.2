@@ -162,9 +162,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_extension_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
-    <ClCompile Include="..\auto\lua_cocos2dx_spine_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_studio_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
@@ -381,9 +378,6 @@
       <Filter>auto</Filter>
     </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_extension_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\auto\lua_cocos2dx_spine_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_studio_auto.hpp">
