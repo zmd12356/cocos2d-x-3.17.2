@@ -128,11 +128,6 @@ LOCAL_SRC_FILES += ../manual/extension/lua_cocos2dx_extension_manual.cpp \
 LOCAL_SRC_FILES += ../manual/physics3d/lua_cocos2dx_physics3d_manual.cpp \
                    ../auto/lua_cocos2dx_physics3d_auto.cpp \
 
-#navmesh
-LOCAL_SRC_FILES += ../manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp \
-                   ../manual/navmesh/lua_cocos2dx_navmesh_manual.cpp \
-                   ../auto/lua_cocos2dx_navmesh_auto.cpp \
-
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LUA_INCLUDE_PATH) \
                     $(LOCAL_PATH)/../../../2d \
@@ -143,7 +138,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../../../editor-support/cocostudio/ActionTimeline \
                     $(LOCAL_PATH)/../../../ui \
                     $(LOCAL_PATH)/../../../physics3d \
-                    $(LOCAL_PATH)/../../../navmesh \
                     $(LOCAL_PATH)/../../../../extensions \
                     $(LOCAL_PATH)/../auto \
                     $(LOCAL_PATH)/../manual \
@@ -156,7 +150,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../manual/cocostudio \
                     $(LOCAL_PATH)/../manual/cocosbuilder \
                     $(LOCAL_PATH)/../manual/ui \
-                    $(LOCAL_PATH)/../manual/navmesh \
                     $(LOCAL_PATH)/../../../../external/xxtea \
                     $(LOCAL_PATH)/../../../.. \
                     $(LOCAL_PATH)/../../../../external/lua
@@ -174,7 +167,6 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                            $(LOCAL_PATH)/../manual/cocostudio \
                            $(LOCAL_PATH)/../manual/extension \
                            $(LOCAL_PATH)/../manual/ui \
-                           $(LOCAL_PATH)/../manual/navmesh \
                            $(LOCAL_PATH)/../../../..
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cclua_android
