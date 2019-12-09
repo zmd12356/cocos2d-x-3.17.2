@@ -41,7 +41,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_experimental_video_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_experimental_webview_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_extension_auto.cpp" />
-    <ClCompile Include="..\auto\lua_cocos2dx_navmesh_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_physics3d_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_physics_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_studio_auto.cpp" />
@@ -70,8 +69,6 @@
     <ClCompile Include="..\manual\extension\lua_cocos2dx_extension_manual.cpp" />
     <ClCompile Include="..\manual\LuaBasicConversions.cpp" />
     <ClCompile Include="..\manual\lua_module_register.cpp" />
-    <ClCompile Include="..\manual\navmesh\lua_cocos2dx_navmesh_conversions.cpp" />
-    <ClCompile Include="..\manual\navmesh\lua_cocos2dx_navmesh_manual.cpp" />
     <ClCompile Include="..\manual\network\lua_cocos2dx_network_manual.cpp" />
     <ClCompile Include="..\manual\network\lua_downloader.cpp" />
     <ClCompile Include="..\manual\network\lua_extensions.c" />
@@ -116,7 +113,6 @@
     <ClInclude Include="..\auto\lua_cocos2dx_experimental_video_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_experimental_webview_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_extension_auto.hpp" />
-    <ClInclude Include="..\auto\lua_cocos2dx_navmesh_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_physics3d_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_physics_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_studio_auto.hpp" />
@@ -146,8 +142,6 @@
     <ClInclude Include="..\manual\Lua-BindingsExport.h" />
     <ClInclude Include="..\manual\LuaBasicConversions.h" />
     <ClInclude Include="..\manual\lua_module_register.h" />
-    <ClInclude Include="..\manual\navmesh\lua_cocos2dx_navmesh_conversions.h" />
-    <ClInclude Include="..\manual\navmesh\lua_cocos2dx_navmesh_manual.h" />
     <ClInclude Include="..\manual\network\lua_cocos2dx_network_manual.h" />
     <ClInclude Include="..\manual\network\lua_downloader.h" />
     <ClInclude Include="..\manual\network\lua_extensions.h" />
