@@ -43,7 +43,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_extension_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_physics3d_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_physics_auto.cpp" />
-    <ClCompile Include="..\auto\lua_cocos2dx_studio_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_ui_auto.cpp" />
     <ClCompile Include="..\manual\3d\lua_cocos2dx_3d_manual.cpp" />
     <ClCompile Include="..\manual\audioengine\lua_cocos2dx_audioengine_manual.cpp" />
@@ -62,10 +61,6 @@
     <ClCompile Include="..\manual\cocosbuilder\CCBProxy.cpp" />
     <ClCompile Include="..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.cpp" />
     <ClCompile Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.cpp" />
-    <ClCompile Include="..\manual\cocostudio\CustomGUIReader.cpp" />
-    <ClCompile Include="..\manual\cocostudio\lua-cocos-studio-conversions.cpp" />
-    <ClCompile Include="..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.cpp" />
-    <ClCompile Include="..\manual\cocostudio\lua_cocos2dx_csloader_manual.cpp" />
     <ClCompile Include="..\manual\extension\lua_cocos2dx_extension_manual.cpp" />
     <ClCompile Include="..\manual\LuaBasicConversions.cpp" />
     <ClCompile Include="..\manual\lua_module_register.cpp" />
@@ -115,7 +110,6 @@
     <ClInclude Include="..\auto\lua_cocos2dx_extension_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_physics3d_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_physics_auto.hpp" />
-    <ClInclude Include="..\auto\lua_cocos2dx_studio_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_ui_auto.hpp" />
     <ClInclude Include="..\manual\3d\lua_cocos2dx_3d_manual.h" />
     <ClInclude Include="..\manual\audioengine\lua_cocos2dx_audioengine_manual.h" />
@@ -134,10 +128,6 @@
     <ClInclude Include="..\manual\cocosbuilder\CCBProxy.h" />
     <ClInclude Include="..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.h" />
     <ClInclude Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.h" />
-    <ClInclude Include="..\manual\cocostudio\CustomGUIReader.h" />
-    <ClInclude Include="..\manual\cocostudio\lua-cocos-studio-conversions.h" />
-    <ClInclude Include="..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.hpp" />
-    <ClInclude Include="..\manual\cocostudio\lua_cocos2dx_csloader_manual.hpp" />
     <ClInclude Include="..\manual\extension\lua_cocos2dx_extension_manual.h" />
     <ClInclude Include="..\manual\Lua-BindingsExport.h" />
     <ClInclude Include="..\manual\LuaBasicConversions.h" />
@@ -183,12 +173,6 @@
     <None Include="..\script\DeprecatedCocosDenshionFunc.lua">
       <FileType>Document</FileType>
     </None>
-    <None Include="..\script\DeprecatedCocoStudioClass.lua">
-      <FileType>Document</FileType>
-    </None>
-    <None Include="..\script\DeprecatedCocoStudioFunc.lua">
-      <FileType>Document</FileType>
-    </None>
     <None Include="..\script\DeprecatedExtensionClass.lua">
       <FileType>Document</FileType>
     </None>
@@ -205,9 +189,6 @@
     <None Include="..\script\network\DeprecatedNetworkEnum.lua" />
     <None Include="..\script\network\DeprecatedNetworkFunc.lua" />
     <None Include="..\script\network\NetworkConstants.lua" />
-    <None Include="..\script\StudioConstants.lua">
-      <FileType>Document</FileType>
-    </None>
     <None Include="..\script\ui\DeprecatedUIEnum.lua" />
     <None Include="..\script\ui\DeprecatedUIFunc.lua" />
     <None Include="..\script\ui\experimentalUIConstants.lua" />

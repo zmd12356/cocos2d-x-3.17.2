@@ -7,6 +7,9 @@ collectgarbage("setstepmul", 5000)
 -- run
 CC_USE_DEPRECATED_API = true
 require "cocos.init"
+if not json then
+    require "cocos.cocos2d.json"
+end
 
 local director = cc.Director:getInstance()
 local glView   = director:getOpenGLView()
