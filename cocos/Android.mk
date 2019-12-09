@@ -278,7 +278,6 @@ LOCAL_STATIC_LIBRARIES += ext_webp
 LOCAL_STATIC_LIBRARIES += ext_chipmunk 
 LOCAL_STATIC_LIBRARIES += ext_zlib
 LOCAL_STATIC_LIBRARIES += ext_ssl
-LOCAL_STATIC_LIBRARIES += ext_recast
 LOCAL_STATIC_LIBRARIES += ext_bullet
 
 LOCAL_WHOLE_STATIC_LIBRARIES := ccandroid
@@ -334,7 +333,6 @@ $(call import-module,ui)
 $(call import-module,extensions)
 $(call import-module,Box2D/prebuilt/android)
 $(call import-module,bullet/prebuilt/android)
-$(call import-module,recast)
 # $(call import-module,curl/prebuilt/android)
 $(call import-module,websockets/prebuilt/android)
 $(call import-module,openssl/prebuilt/android)
