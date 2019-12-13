@@ -47,12 +47,10 @@ LOCAL_SRC_FILES := ../manual/CCLuaBridge.cpp \
           ../manual/LuaBasicConversions.cpp \
           ../manual/lua_module_register.cpp \
           ../auto/lua_cocos2dx_auto.cpp \
-          ../auto/lua_cocos2dx_physics_auto.cpp \
           ../auto/lua_cocos2dx_experimental_auto.cpp \
           ../manual/cocos2d/lua_cocos2dx_deprecated.cpp \
           ../manual/cocos2d/lua_cocos2dx_experimental_manual.cpp \
           ../manual/cocos2d/lua_cocos2dx_manual.cpp \
-          ../manual/cocos2d/lua_cocos2dx_physics_manual.cpp \
           ../manual/cocos2d/LuaOpengl.cpp \
           ../manual/cocos2d/LuaScriptHandlerMgr.cpp \
           ../manual/tolua_fix.cpp \

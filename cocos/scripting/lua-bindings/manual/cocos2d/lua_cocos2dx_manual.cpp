@@ -48,6 +48,7 @@
 #include "2d/CCSpriteBatchNode.h"
 #include "2d/CCTMXLayer.h"
 #include "2d/CCTMXTiledMap.h"
+#include "base/CCEventCustom.h"
 #include "base/CCEventDispatcher.h"
 #include "base/CCEventListenerKeyboard.h"
 #include "base/CCEventListenerMouse.h"

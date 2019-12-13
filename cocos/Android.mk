@@ -192,11 +192,6 @@ deprecated/CCDictionary.cpp \
 deprecated/CCNotificationCenter.cpp \
 deprecated/CCSet.cpp \
 deprecated/CCString.cpp \
-physics/CCPhysicsBody.cpp \
-physics/CCPhysicsContact.cpp \
-physics/CCPhysicsJoint.cpp \
-physics/CCPhysicsShape.cpp \
-physics/CCPhysicsWorld.cpp \
 ../external/ConvertUTF/ConvertUTFWrapper.cpp \
 ../external/ConvertUTF/ConvertUTF.c \
 ../external/md5/md5.c \
@@ -220,7 +215,6 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH) \
                     $(LOCAL_PATH)/../external \
                     $(LOCAL_PATH)/../external/tinyxml2 \
                     $(LOCAL_PATH)/../external/unzip \
-                    $(LOCAL_PATH)/../external/chipmunk/include/chipmunk \
                     $(LOCAL_PATH)/../external/xxhash \
                     $(LOCAL_PATH)/../external/nslog \
                     $(LOCAL_PATH)/../external/poly2tri \
@@ -233,7 +227,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH) \
                     $(LOCAL_PATH)/../external \
                     $(LOCAL_PATH)/../external/tinyxml2 \
                     $(LOCAL_PATH)/../external/unzip \
-                    $(LOCAL_PATH)/../external/chipmunk/include/chipmunk \
                     $(LOCAL_PATH)/../external/edtaa3func \
                     $(LOCAL_PATH)/../external/xxhash \
                     $(LOCAL_PATH)/../external/ConvertUTF \
@@ -253,7 +246,6 @@ LOCAL_STATIC_LIBRARIES += ext_png
 LOCAL_STATIC_LIBRARIES += ext_jpeg
 LOCAL_STATIC_LIBRARIES += ext_tiff
 LOCAL_STATIC_LIBRARIES += ext_webp
-LOCAL_STATIC_LIBRARIES += ext_chipmunk 
 LOCAL_STATIC_LIBRARIES += ext_zlib
 LOCAL_STATIC_LIBRARIES += ext_ssl
 
@@ -298,13 +290,10 @@ $(call import-module,zlib/prebuilt/android)
 $(call import-module,jpeg/prebuilt/android)
 $(call import-module,tiff/prebuilt/android)
 $(call import-module,webp/prebuilt/android)
-$(call import-module,chipmunk/prebuilt/android)
 $(call import-module,audio/android)
 $(call import-module,network)
 $(call import-module,ui)
 $(call import-module,extensions)
-$(call import-module,Box2D/prebuilt/android)
-# $(call import-module,curl/prebuilt/android)
 $(call import-module,websockets/prebuilt/android)
 $(call import-module,openssl/prebuilt/android)
 $(call import-module,uv/prebuilt/android)

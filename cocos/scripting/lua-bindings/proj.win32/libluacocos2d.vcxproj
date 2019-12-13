@@ -38,7 +38,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_experimental_video_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_experimental_webview_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_extension_auto.cpp" />
-    <ClCompile Include="..\auto\lua_cocos2dx_physics_auto.cpp" />
     <ClCompile Include="..\auto\lua_cocos2dx_ui_auto.cpp" />
     <ClCompile Include="..\manual\audioengine\lua_cocos2dx_audioengine_manual.cpp" />
     <ClCompile Include="..\manual\CCLuaBridge.cpp" />
@@ -52,7 +51,6 @@
     <ClCompile Include="..\manual\cocos2d\lua_cocos2dx_deprecated.cpp" />
     <ClCompile Include="..\manual\cocos2d\lua_cocos2dx_experimental_manual.cpp" />
     <ClCompile Include="..\manual\cocos2d\lua_cocos2dx_manual.cpp" />
-    <ClCompile Include="..\manual\cocos2d\lua_cocos2dx_physics_manual.cpp" />
     <ClCompile Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.cpp" />
     <ClCompile Include="..\manual\extension\lua_cocos2dx_extension_manual.cpp" />
     <ClCompile Include="..\manual\LuaBasicConversions.cpp" />
@@ -97,7 +95,6 @@
     <ClInclude Include="..\auto\lua_cocos2dx_experimental_video_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_experimental_webview_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_extension_auto.hpp" />
-    <ClInclude Include="..\auto\lua_cocos2dx_physics_auto.hpp" />
     <ClInclude Include="..\auto\lua_cocos2dx_ui_auto.hpp" />
     <ClInclude Include="..\manual\audioengine\lua_cocos2dx_audioengine_manual.h" />
     <ClInclude Include="..\manual\CCLuaBridge.h" />
@@ -111,7 +108,6 @@
     <ClInclude Include="..\manual\cocos2d\lua_cocos2dx_deprecated.h" />
     <ClInclude Include="..\manual\cocos2d\lua_cocos2dx_experimental_manual.hpp" />
     <ClInclude Include="..\manual\cocos2d\lua_cocos2dx_manual.hpp" />
-    <ClInclude Include="..\manual\cocos2d\lua_cocos2dx_physics_manual.hpp" />
     <ClInclude Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.h" />
     <ClInclude Include="..\manual\extension\lua_cocos2dx_extension_manual.h" />
     <ClInclude Include="..\manual\Lua-BindingsExport.h" />
@@ -239,7 +235,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)external\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)external\lua\luajit\include;$(EngineRoot)external\libwebsockets\win32\include;$(EngineRoot)extensions;$(EngineRoot)external\bullet\include;$(EngineRoot)external\bullet\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)external\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)external\lua\luajit\include;$(EngineRoot)external\libwebsockets\win32\include;$(EngineRoot)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_USRLUASTATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
