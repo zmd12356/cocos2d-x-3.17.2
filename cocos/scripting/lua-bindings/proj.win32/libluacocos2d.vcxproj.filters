@@ -22,9 +22,6 @@
     <Filter Include="manual\cocos2d">
       <UniqueIdentifier>{d326dcc4-b1e3-4326-95c2-c14144076fd9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="manual\3d">
-      <UniqueIdentifier>{b886bc56-4c57-48e2-83ee-f0b5ccb9e7ce}</UniqueIdentifier>
-    </Filter>
     <Filter Include="manual\cocosdenshion">
       <UniqueIdentifier>{e88a3956-3c72-495d-bef5-75aa1b1e28a7}</UniqueIdentifier>
     </Filter>
@@ -129,9 +126,6 @@
     <ClCompile Include="..\auto\lua_cocos2dx_physics_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
-    <ClCompile Include="..\auto\lua_cocos2dx_3d_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_cocosdenshion_auto.cpp">
       <Filter>auto</Filter>
     </ClCompile>
@@ -143,9 +137,6 @@
     </ClCompile>
     <ClCompile Include="..\auto\lua_cocos2dx_ui_auto.cpp">
       <Filter>auto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\3d\lua_cocos2dx_3d_manual.cpp">
-      <Filter>manual\3d</Filter>
     </ClCompile>
     <ClCompile Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.cpp">
       <Filter>manual\cocosdenshion</Filter>
@@ -305,9 +296,6 @@
     <ClInclude Include="..\auto\lua_cocos2dx_physics_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
-    <ClInclude Include="..\auto\lua_cocos2dx_3d_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_cocosdenshion_auto.hpp">
       <Filter>auto</Filter>
     </ClInclude>
@@ -319,9 +307,6 @@
     </ClInclude>
     <ClInclude Include="..\auto\lua_cocos2dx_ui_auto.hpp">
       <Filter>auto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\3d\lua_cocos2dx_3d_manual.h">
-      <Filter>manual\3d</Filter>
     </ClInclude>
     <ClInclude Include="..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.h">
       <Filter>manual\cocosdenshion</Filter>

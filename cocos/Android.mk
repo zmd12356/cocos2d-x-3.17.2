@@ -87,8 +87,6 @@ cocos2d.cpp \
 2d/CCTransitionProgress.cpp \
 2d/CCTweenFunction.cpp \
 2d/CCAutoPolygon.cpp \
-3d/CCFrustum.cpp \
-3d/CCPlane.cpp \
 platform/CCDataManager.cpp \
 platform/CCFileUtils.cpp \
 platform/CCGLView.cpp \
@@ -183,7 +181,6 @@ renderer/CCTextureAtlas.cpp \
 renderer/CCTextureCache.cpp \
 renderer/CCTextureCube.cpp \
 renderer/CCTrianglesCommand.cpp \
-renderer/CCVertexAttribBinding.cpp \
 renderer/CCVertexIndexBuffer.cpp \
 renderer/CCVertexIndexData.cpp \
 renderer/ccGLStateCache.cpp \
@@ -288,7 +285,6 @@ LOCAL_MODULE_FILENAME := libcc
 LOCAL_STATIC_LIBRARIES += ccui
 LOCAL_STATIC_LIBRARIES += ccds
 LOCAL_STATIC_LIBRARIES += ccets
-LOCAL_STATIC_LIBRARIES += cc3d
 LOCAL_STATIC_LIBRARIES += ccnet
 LOCAL_STATIC_LIBRARIES += audio
 
@@ -303,7 +299,6 @@ $(call import-module,jpeg/prebuilt/android)
 $(call import-module,tiff/prebuilt/android)
 $(call import-module,webp/prebuilt/android)
 $(call import-module,chipmunk/prebuilt/android)
-$(call import-module,3d)
 $(call import-module,audio/android)
 $(call import-module,network)
 $(call import-module,ui)

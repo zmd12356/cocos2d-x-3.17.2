@@ -52,9 +52,6 @@
     <Filter Include="storage">
       <UniqueIdentifier>{44bdf58f-4af2-433c-b4af-58dc05ef96b5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="3d">
-      <UniqueIdentifier>{63733c51-582a-4f0f-9a82-e066da459a72}</UniqueIdentifier>
-    </Filter>
     <Filter Include="cocosdenshion">
       <UniqueIdentifier>{3bd71d42-dfa4-4649-bb01-ad607fdca1c2}</UniqueIdentifier>
     </Filter>
@@ -634,48 +631,6 @@
     <ClCompile Include="..\base\ccRandom.cpp">
       <Filter>base</Filter>
     </ClCompile>
-    <ClCompile Include="..\3d\CCAnimate3D.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCAnimation3D.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCAttachNode.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCBundle3D.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCBundleReader.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCMesh.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCMeshSkin.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCOBB.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCObjLoader.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCRay.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCSkeleton3D.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCSprite3D.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCSprite3DMaterial.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCMotionStreak3D.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\extensions\assets-manager\AssetsManager.cpp">
       <Filter>extension\AssetsManager</Filter>
     </ClCompile>
@@ -793,12 +748,6 @@
     <ClCompile Include="..\ui\UIScrollViewBar.cpp">
       <Filter>ui\UIWidgets\ScrollWidget</Filter>
     </ClCompile>
-    <ClCompile Include="..\3d\CCMeshVertexIndexData.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCBillBoard.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
     <ClCompile Include="..\ui\UIEditBox\UIEditBox.cpp">
       <Filter>ui\UIWidgets\EditBox</Filter>
     </ClCompile>
@@ -907,15 +856,6 @@
     <ClCompile Include="..\base\allocator\CCAllocatorGlobalNewDelete.cpp">
       <Filter>base\allocator</Filter>
     </ClCompile>
-    <ClCompile Include="..\3d\CCAABB.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCTerrain.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCSkybox.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\external\poly2tri\common\shapes.cc">
       <Filter>external\poly2tri\common</Filter>
     </ClCompile>
@@ -945,9 +885,6 @@
     </ClCompile>
     <ClCompile Include="..\base\CCProperties.cpp">
       <Filter>base</Filter>
-    </ClCompile>
-    <ClCompile Include="..\renderer\CCVertexAttribBinding.cpp">
-      <Filter>renderer</Filter>
     </ClCompile>
     <ClCompile Include="..\base\CCNinePatchImageParser.cpp">
       <Filter>base</Filter>
@@ -994,12 +931,6 @@
     </ClCompile>
     <ClCompile Include="..\network\Uri.cpp">
       <Filter>network\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCFrustum.cpp">
-      <Filter>3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\3d\CCPlane.cpp">
-      <Filter>3d</Filter>
     </ClCompile>
     <ClCompile Include="..\..\external\md5\md5.c">
       <Filter>external\md5</Filter>
@@ -1576,60 +1507,6 @@
     <ClInclude Include="..\base\ccRandom.h">
       <Filter>base</Filter>
     </ClInclude>
-    <ClInclude Include="..\3d\CCAABB.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCAnimate3D.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCAnimation3D.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCAnimationCurve.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCAttachNode.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCBundle3D.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCBundle3DData.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCBundleReader.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCMesh.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCMeshSkin.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCOBB.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCObjLoader.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCRay.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCSkeleton3D.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCSprite3D.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCSprite3DMaterial.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCMotionStreak3D.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\cocos3d.h">
-      <Filter>3d</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\extensions\assets-manager\AssetsManager.h">
       <Filter>extension\AssetsManager</Filter>
     </ClInclude>
@@ -1755,12 +1632,6 @@
     </ClInclude>
     <ClInclude Include="..\ui\UIScrollView.h">
       <Filter>ui\UIWidgets\ScrollWidget</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCMeshVertexIndexData.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCBillBoard.h">
-      <Filter>3d</Filter>
     </ClInclude>
     <ClInclude Include="..\ui\UIEditBox\UIEditBox.h">
       <Filter>ui\UIWidgets\EditBox</Filter>
@@ -1900,12 +1771,6 @@
     <ClInclude Include="..\physics\CCPhysicsHelper.h">
       <Filter>physics</Filter>
     </ClInclude>
-    <ClInclude Include="..\3d\CCTerrain.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCSkybox.h">
-      <Filter>3d</Filter>
-    </ClInclude>
     <ClInclude Include="..\platform\CCPlatformConfig.h">
       <Filter>platform</Filter>
     </ClInclude>
@@ -1947,9 +1812,6 @@
     </ClInclude>
     <ClInclude Include="..\base\CCProperties.h">
       <Filter>base</Filter>
-    </ClInclude>
-    <ClInclude Include="..\renderer\CCVertexAttribBinding.h">
-      <Filter>renderer</Filter>
     </ClInclude>
     <ClInclude Include="..\base\CCNinePatchImageParser.h">
       <Filter>base</Filter>
@@ -2006,12 +1868,6 @@
     <ClInclude Include="..\network\Uri.h">
       <Filter>network\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\3d\CCFrustum.h">
-      <Filter>3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\3d\CCPlane.h">
-      <Filter>3d</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\external\md5\md5.h">
       <Filter>external\md5</Filter>
     </ClInclude>
@@ -2046,8 +1902,5 @@
       <Filter>math</Filter>
     </None>
     <None Include="cocos2d.def" />
-    <None Include="..\3d\CCAnimationCurve.inl">
-      <Filter>3d</Filter>
-    </None>
   </ItemGroup>
 </Project>
